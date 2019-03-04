@@ -1,3 +1,3 @@
 # Weather application
 
-![Weather application](display/demo.gif)
+![Weather application](display/demo1.gif)
