@@ -124,6 +124,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+    @SuppressLint("SetTextI18n")
     private void UpdateUI(Weather weather){
 /**
  * 日期 小时最接近的list的索引index(差半小时不到)
@@ -145,10 +146,13 @@ public class MainActivity extends AppCompatActivity {
          * 给forecast 组设置图标和日期
          *
          */
+        int x = 7;
         for(int i = 0; i < 4 ; i++){
             ViewGroup child = (ViewGroup) ((ViewGroup)findViewById(R.id.layoutOfForecast)).getChildAt(i);
             ((ImageView)child.getChildAt(0)).setImageResource(resourcesList.get(i + 1));
             ((TextView)child.getChildAt(1)).setText(arrayList.get(i + 1));
+            ((TextView)child.getChildAt(2)).setText(StringCast(weather.list.get(x).getMain().getTemp() - 273.15) +"°C");
+            x = x + 8;
         }
 
 

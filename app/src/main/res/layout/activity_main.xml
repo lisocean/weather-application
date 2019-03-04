@@ -184,6 +184,13 @@
                 android:text="mon"
                 android:textAllCaps="true"
                 android:textColor="#909090" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="mon"
+                android:textAllCaps="true"
+                android:textColor="#909090" />
         </LinearLayout>
 
         <LinearLayout
@@ -203,6 +210,13 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="tue"
+                android:textAllCaps="true"
+                android:textColor="#909090" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="mon"
                 android:textAllCaps="true"
                 android:textColor="#909090" />
         </LinearLayout>
@@ -226,6 +240,13 @@
                 android:text="thu"
                 android:textAllCaps="true"
                 android:textColor="#909090" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="mon"
+                android:textAllCaps="true"
+                android:textColor="#909090" />
         </LinearLayout>
 
         <LinearLayout
@@ -245,6 +266,13 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="fri"
+                android:textAllCaps="true"
+                android:textColor="#909090" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="mon"
                 android:textAllCaps="true"
                 android:textColor="#909090" />
         </LinearLayout>
